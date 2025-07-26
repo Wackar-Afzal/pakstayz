@@ -1,0 +1,43 @@
+{
+  "name": "cello_beauty",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.14.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^7.0.2",
+    "@mui/material-nextjs": "^7.0.2",
+    "axios": "^1.9.0",
+    "crypto-js": "^4.2.0",
+    "date-fns": "^4.1.0",
+    "embla-carousel-autoplay": "^8.6.0",
+    "embla-carousel-react": "^8.6.0",
+    "formik": "^2.4.6",
+    "framer-motion": "^12.7.4",
+    "jsonwebtoken": "^9.0.2",
+    "lucide-react": "^0.503.0",
+    "mongoose": "^8.14.1",
+    "next": "15.3.1",
+    "postcss": "^8.5.3",
+    "react": "^19.0.0",
+    "react-datepicker": "^8.3.0",
+    "react-dom": "^19.0.0",
+    "react-toastify": "^11.0.5",
+    "yup": "^1.6.1",
+    "zustand": "^5.0.3"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4.1.4",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.1",
+    "tailwindcss": "^4.1.4"
+  }
+}

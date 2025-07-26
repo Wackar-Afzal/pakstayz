@@ -1,0 +1,172 @@
+@import "tailwindcss";
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --primary-color:#73b5c6;
+  /* --primary-color:#c673c0; */
+  --primary-light-color:rgba(221,148,43,.6);
+  --secondary-color:rgb(105, 219, 239);
+  --secondary-light-color:rgb(153, 223, 233);
+  --icons-dark-color:#3d3838;
+  --icons-light-color:#4d4c4c;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary-color: var(--primary-color);
+  --color-primary-light-color: var(--primary-light-color);
+  --color-secondary-color: var(--secondary-color);
+  --color-secondary-light-color: var(--secondary-light-color);
+  --color-icons-dark-color: var(--icons-dark-color);
+  --color-icons-light-color: var(--icons-light-color);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+ *{
+  /* padding: 0; */
+  /* margin: 0; */
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+ }
+
+
+body {
+  background-color: #ffffff;
+  color: #000000; ;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center font-medium rounded-lg transition-all duration-200 px-2 lg:px-4 py-2 cursor-pointer;
+  }
+
+  .btn-primary {
+    @apply bg-primary-color text-white hover:bg-primary-color/50;
+  }
+
+  .btn-secondary {
+    @apply bg-gray-200 text-gray-800 hover:bg-gray-300;
+  }
+
+  .btn-outline {
+    @apply border border-gray-400 text-gray-800 hover:bg-gray-100;
+  }
+
+  .btn-danger {
+    @apply bg-red-500 text-white hover:bg-red-600;
+  }
+
+  .btn-sm {
+    @apply px-3 py-1 text-sm;
+  }
+
+  .btn-lg {
+    @apply px-6 py-3 text-lg;
+  }
+  .btn-icons {
+    @apply text-icons-light-color hover:text-primary-color hover:scale-[1.1] hover:shadow-lg;
+  }
+}
+
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+
+.react-datepicker {
+  font-family: inherit;
+  border: none !important;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.react-datepicker__header {
+  background-color: #c673c0 !important; /* primary color */
+  border-bottom: none;
+}
+
+.react-datepicker__current-month,
+.react-datepicker-time__header,
+.react-datepicker-year-header {
+  color: white !important;
+  font-weight: bold;
+}
+
+
+.react-datepicker__day,
+.react-datepicker__time-name {
+  color: #555;
+}
+.react-datepicker__day-name{
+  color: #ffffff !important;
+
+}
+/* Selected day */
+.react-datepicker__day--selected,
+.react-datepicker__day--keyboard-selected {
+  background-color: #c673c0 !important;
+  color: white !important;
+}
+.react-datepicker__day--today{
+  background-color: #d2a2cf !important;
+}
+/* Hover ONLY on normal selectable days */
+.react-datepicker__day:not(.react-datepicker__day--disabled):hover {
+  background-color: #d2a2cf;
+  color: white;
+  border-radius: 0.3rem;
+}
+
+/* Disabled days */
+.react-datepicker__day--disabled {
+  color: #ccc; /* light grey text */
+  background-color: #ffffff; /* light grey background */
+  cursor: not-allowed;
+}
+
+/* Prevent hover effect on disabled */
+.react-datepicker__day--disabled:hover {
+  background-color: #f0f0f0;
+  color: #ccc;
+}
+.react-datepicker{
+  width: 100%;
+}
+.react-datepicker__month-container{
+  width: 100%;
+}
+.react-datepicker__navigation-icon:before {
+  border-color:  #ffffff !important;
+  /* border-width: 3px 3px 0 0; */
+}
+
+
+.eapps-widget-toolbar-panel-wrapper{
+  display: none !important;
+}
+.eapps-widget-toolbar{
+  display: none !important;
+}
+.WidgetBackground__Content-sc-52f57cce-2>a{
+  display: none !important;
+  
+}

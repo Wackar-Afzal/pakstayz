@@ -1,8 +1,4 @@
-import Image from "next/image";
-import ImageSlider from "../Components/ImageSlider/ImageSlider";
 import Services from "../Components/Home/Services/Services";
-import GoogleReviews from "@/Components/GoogleReviews/GoogleReviews";
-import Staff from "@/Components/staff/Staff";
 export default function Home() {
  
   return (
@@ -21,7 +17,7 @@ export default function Home() {
       />
     </div>
     </div> */}
-      <ImageSlider />
+      {/* <ImageSlider /> */}
       <Services/>
       {/* <Staff/> */}
     </div>

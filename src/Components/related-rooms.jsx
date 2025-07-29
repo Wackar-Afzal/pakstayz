@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@mui/material"
-import { rooms } from "@/assets/data"
+import { rooms } from "../assets/data"
 
 export default function RelatedRooms({ currentRoomId }) {
   const relatedRooms = rooms.filter((room) => room.id !== currentRoomId).slice(0, 3)

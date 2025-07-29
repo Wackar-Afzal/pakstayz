@@ -1,8 +1,6 @@
 
-import ContentRenderer from "@/components/content-renderer"
-import WhatsAppWidget from "@/components/whatsapp-widget"
-import ImageGallery from "@/Components/image-gallery"
-import { roomsGalleryData } from "@/assets/data"
+import WhatsAppWidget from "../../Components/whatsapp-widget"
+import { roomsGalleryData } from "../../assets/data"
 import Image from "next/image"
 
 // Simulate async data fetching

@@ -1,8 +1,7 @@
-import Header from "@/Components/Navbar/Navbar"
-import ContentRenderer from "@/components/content-renderer"
-import WhatsAppWidget from "@/components/whatsapp-widget"
+import ContentRenderer from "../../Components/content-renderer"
+import WhatsAppWidget from "../../components/whatsapp-widget"
 // import BookingCTA from "@/components/booking-cta"
-import { facilitiesData } from "@/assets/data"
+import { facilitiesData } from "../../assets/data"
 
 // Simulate async data fetching
 async function getFacilitiesData() {

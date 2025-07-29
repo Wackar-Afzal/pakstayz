@@ -1,6 +1,6 @@
 "use client"
 import { MapPin, Phone, Mail, Facebook } from "lucide-react";
-import {footerData} from "@/assets/data"; // adjust path if needed
+import {footerData} from "../../assets/data"; // adjust path if needed
 
 export default function Footer() {
   const {

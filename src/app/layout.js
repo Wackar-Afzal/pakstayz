@@ -2,8 +2,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
 import Navbar from "../Components/Navbar/Navbar";
-import Footer from "@/Components/Footer/Footer";
-import ToastC from "@/Components/toast/Toast";
+import Footer from "../Components/Footer/Footer";
+import ToastC from "../Components/toast/Toast";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],

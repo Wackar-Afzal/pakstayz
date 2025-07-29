@@ -1,9 +1,9 @@
 import { notFound } from "next/navigation"
-import ContentRenderer from "@/Components/content-renderer"
-import WhatsAppWidget from "@/components/whatsapp-widget"
-import BookingSection from "@/Components/booking-section"
-import RelatedRooms from "@/Components/related-rooms"
-import { rooms } from "@/assets/data"
+import ContentRenderer from "../../../Components/content-renderer"
+import WhatsAppWidget from "../../../Components/whatsapp-widget"
+import BookingSection from "../../../Components/booking-section"
+import RelatedRooms from "../../../Components/related-rooms"
+import { rooms } from "../../../assets/data"
 
 
 

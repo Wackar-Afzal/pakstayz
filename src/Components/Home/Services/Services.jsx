@@ -1,7 +1,7 @@
 
-import RoomCard from "@/components/RoomCard/RoomCard";
-import WhatsAppWidget from "@/Components/whatsapp-widget";
-import { rooms } from "@/assets/data";
+import RoomCard from "../../RoomCard/RoomCard";
+import WhatsAppWidget from "../../whatsapp-widget";
+import { rooms } from "../../../assets/data";
 
 export default function HomePage() {
   return (

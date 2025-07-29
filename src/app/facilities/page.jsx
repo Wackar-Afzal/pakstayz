@@ -1,6 +1,6 @@
 import ContentRenderer from "../../Components/content-renderer"
-import WhatsAppWidget from "../../components/whatsapp-widget"
-// import BookingCTA from "@/components/booking-cta"
+import WhatsAppWidget from "../../Components/whatsapp-widget"
+// import BookingCTA from "@/Components/booking-cta"
 import { facilitiesData } from "../../assets/data"
 
 // Simulate async data fetching

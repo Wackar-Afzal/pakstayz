@@ -1,6 +1,6 @@
 
 import ContentRenderer from "../../Components/content-renderer"
-import WhatsAppWidget from "../../components/whatsapp-widget"
+import WhatsAppWidget from "../../Components/whatsapp-widget"
 import { contactData } from "../../assets/data"
 
 // Simulate async data fetching

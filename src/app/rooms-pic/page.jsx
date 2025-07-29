@@ -17,7 +17,7 @@ export default async function RoomsGalleryPage() {
     <div className="min-h-screen bg-white">
       <main className="container mx-auto px-4 py-8">
         {/* Breadcrumb */}
-        <nav className="text-sm text-gray-600 mb-6">
+        <nav className="text-sm text-gray-600 mb-6 max-w-6xl mx-auto max-w-6xl mx-auto">
           <span>Home</span>
           <span className="mx-2">{">"}</span>
           <span className="text-gray-900">Rooms Pictures</span>

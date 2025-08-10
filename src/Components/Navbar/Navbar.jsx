@@ -60,13 +60,17 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <div className="flex items-center">
+              <Link href="/">
               <div className=" h-10 p-1  flex items-center justify-center">
+
                 <img
                   src="/logo.png"
                   alt="Logo"
                   className="w-full h-full object-cover"
                 />
               </div>
+
+                </Link>
             </div>
           </div>
 
@@ -89,6 +93,9 @@ export default function Header() {
           <nav className="hidden md:flex space-x-6">
             <Link href="/" className="text-blue-500">
               Home
+            </Link>
+            <Link href="/cities" className="text-blue-500 hover:text-blue-500">
+              Cities
             </Link>
             <Link href="/facilities" className="text-blue-500 hover:text-blue-500">
               Facilities
@@ -122,6 +129,13 @@ export default function Header() {
               className="block py-2 text-blue-500 font-semibold"
             >
               Home
+            </Link>
+            <Link
+              href="/cities"
+              onClick={() => setIsMenuOpen(false)}
+              className="block py-2 text-blue-500"
+            >
+              Cities
             </Link>
             <Link
               href="/facilities"

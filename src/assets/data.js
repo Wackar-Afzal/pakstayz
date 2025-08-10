@@ -1,304 +1,486 @@
-export const rooms = [
+// Cities data structure
+export const cities = [
   {
     id: 1,
-    name: "Guest House in Islamabad Near Japanese Park",
-    price: "Contact for Price",
-    img: "room1.0.jpg",
-    slug: "guest-house-islamabad-japanese-park",
-    location: "Islamabad",
-    description:
-      "Discover the Remarkable Guest House in Islamabad Near Japanese Park in the heart of Islamabad, a cozy guest house is close to Japanese Park. It's a perfect mix of comfort...",
-    content: [
+    name: "Islamabad",
+    slug: "islamabad",
+    description: "The capital city of Pakistan, known for its beautiful architecture and modern planning",
+    image: "isb.jpg",
+    isActive: true,
+    guestHouses: [
       {
-        type: "heading",
-        level: 1,
-        text: "Discover the Remarkable Guest House in Islamabad Near Japanese Park",
-      },
-      {
-        type: "paragraph",
-        text: "In the heart of Islamabad, a cozy guest house is close to Japanese Park. It's a perfect mix of comfort, convenience, and affordability that makes it an ideal choice for travelers seeking a memorable stay in the capital city of Pakistan.",
-      },
-      {
-        type: "image",
-        src: "room1.0.jpg",
-        alt: "Guest House Room Near Japanese Park",
-        caption: "Comfortable and modern room setup",
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "Why Choose Our Guest House?",
-      },
-      {
-        type: "list",
-        items: [
-          "Prime location near Japanese Park",
-          "Clean and comfortable rooms",
-          "24/7 customer service",
-          "Affordable pricing",
-          "Free WiFi and parking",
-          "Air conditioning in all rooms",
+        id: 1,
+        name: "Guest House Near Japanese Park",
+        slug: "guest-house-japanese-park",
+        description: "A cozy guest house close to Japanese Park in the heart of Islamabad",
+        address: "Near Japanese Park, Islamabad",
+        phone: "03000466682",
+        whatsapp: "923000466682",
+        email: "info@japaneseparkguesthouse.com",
+        rating: 4.5,
+        isActive: true,
+        facilities: [
+          "Free WiFi",
+          "24/7 Security",
+          "Free Breakfast",
+          "Smart LED TV",
+          "Inverter AC",
+          "Parking",
+          "Kitchen Access"
         ],
+        rooms: [
+          {
+            id: 1,
+            name: "Standard Room Near Japanese Park",
+            price: "Contact for Price",
+            img: "room1.0.jpg",
+            slug: "standard-room-japanese-park",
+            description: "Discover the Remarkable Guest House in Islamabad Near Japanese Park in the heart of Islamabad, a cozy guest house is close to Japanese Park. It's a perfect mix of comfort...",
+            type: "Standard",
+            capacity: 2,
+            amenities: [
+              "Queen size bed",
+              "Private bathroom",
+              "LED TV",
+              "Work desk",
+              "Wardrobe",
+              "Room service"
+            ],
+            images: [
+              "room1.0.jpg",
+              "room1.1.jpg",
+              "room1.2.jpg",
+              "room1.3.jpg",
+              "room1.4.jpg"
+            ],
+            content: [
+              {
+                type: "heading",
+                level: 1,
+                text: "Discover the Remarkable Guest House in Islamabad Near Japanese Park",
+              },
+              {
+                type: "paragraph",
+                text: "In the heart of Islamabad, a cozy guest house is close to Japanese Park. It's a perfect mix of comfort, convenience, and affordability that makes it an ideal choice for travelers seeking a memorable stay in the capital city of Pakistan.",
+              },
+              {
+                type: "image",
+                src: "room1.0.jpg",
+                alt: "Guest House Room Near Japanese Park",
+                caption: "Comfortable and modern room setup",
+              },
+              {
+                type: "heading",
+                level: 2,
+                text: "Why Choose Our Guest House?",
+              },
+              {
+                type: "list",
+                items: [
+                  "Prime location near Japanese Park",
+                  "Clean and comfortable rooms",
+                  "24/7 customer service",
+                  "Affordable pricing",
+                  "Free WiFi and parking",
+                  "Air conditioning in all rooms",
+                ],
+              },
+              {
+                type: "paragraph",
+                text: "Our guest house offers a unique blend of modern amenities and traditional hospitality. Whether you're visiting Islamabad for business or leisure, our comfortable accommodations will make your stay memorable.",
+              },
+              {
+                type: "heading",
+                level: 2,
+                text: "Room Features",
+              },
+              {
+                type: "image",
+                src: "room1.1.jpg",
+                alt: "Room Interior",
+                caption: "Modern amenities and comfortable bedding",
+              },
+              {
+                type: "list",
+                items: [
+                  "Queen size bed with premium mattress",
+                  "Private bathroom with hot water",
+                  "LED TV with cable channels",
+                  "Work desk and chair",
+                  "Wardrobe and storage space",
+                  "Room service available",
+                ],
+              },
+            ]
+          }
+        ]
       },
       {
-        type: "paragraph",
-        text: "Our guest house offers a unique blend of modern amenities and traditional hospitality. Whether you're visiting Islamabad for business or leisure, our comfortable accommodations will make your stay memorable.",
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "Room Features",
-      },
-      {
-        type: "image",
-        src: "room1.1.jpg",
-        alt: "Room Interior",
-        caption: "Modern amenities and comfortable bedding",
-      },
-      {
-        type: "list",
-        items: [
-          "Queen size bed with premium mattress",
-          "Private bathroom with hot water",
-          "LED TV with cable channels",
-          "Work desk and chair",
-          "Wardrobe and storage space",
-          "Room service available",
+        id: 2,
+        name: "F7 Jinnah Super Guest House",
+        slug: "f7-jinnah-super-guest-house",
+        description: "Best Guest House in F7 Jinnah Super - Unleash a Remarkable Stay Today!",
+        address: "F7 Jinnah Super, Islamabad",
+        phone: "03000466682",
+        whatsapp: "923000466682",
+        email: "info@f7guesthouse.com",
+        rating: 4.8,
+        isActive: true,
+        facilities: [
+          "Free WiFi",
+          "24/7 Security",
+          "Free Breakfast",
+          "Smart LED TV",
+          "Inverter AC",
+          "Parking",
+          "Kitchen Access",
+          "Premium Furnishings"
         ],
+        rooms: [
+          {
+            id: 2,
+            name: "Deluxe Room F7 Jinnah Super",
+            price: "Call: 03000466682",
+            img: "room2.0.jpg",
+            slug: "deluxe-room-f7-jinnah-super",
+            description: "Best Guest House in F7 Jinnah Super Introduction Dive into a world of luxury and comfort at the best guest house in F7 Jinnah Super. Experience a stay like never...",
+            type: "Deluxe",
+            capacity: 2,
+            amenities: [
+              "Premium bedding",
+              "Private bathroom",
+              "LED TV",
+              "Work desk",
+              "Wardrobe",
+              "Room service",
+              "Complimentary breakfast"
+            ],
+            images: [
+              "room2.0.jpg",
+              "room2.1.jpg"
+            ],
+            content: [
+              {
+                type: "image",
+                src: "room2.1.jpg",
+                alt: "F7 Jinnah Super Guest House",
+                caption: "Luxury accommodation in the heart of F7",
+              },
+              {
+                type: "heading",
+                level: 1,
+                text: "Discover the Best Guest House in F7 Jinnah Super - Unleash a Remarkable Stay Today!",
+              },
+              {
+                type: "paragraph",
+                text: "Dive into a world of luxury and comfort at the best guest house in F7 Jinnah Super. Experience a stay like never before with our premium accommodations and exceptional service.",
+              },
+              {
+                type: "list",
+                items: [
+                  "Located in prestigious F7 sector",
+                  "Walking distance to Jinnah Super Market",
+                  "Luxury furnishings and decor",
+                  "Premium bedding and linens",
+                  "Complimentary breakfast",
+                  "24/7 security and reception",
+                ],
+              },
+              {
+                type: "heading",
+                level: 2,
+                text: "Premium Amenities",
+              },
+              {
+                type: "paragraph",
+                text: "Our F7 location offers unparalleled access to Islamabad's finest dining, shopping, and entertainment venues. The guest house is designed with modern travelers in mind, offering both comfort and convenience.",
+              },
+            ]
+          }
+        ]
       },
+      {
+        id: 3,
+        name: "Budget Guest House Near Faisal Mosque",
+        slug: "budget-guest-house-faisal-mosque",
+        description: "Low Budget Guest House in Islamabad: The Ultimate Opportunity for a Thrilling Stay",
+        address: "Near Faisal Mosque, Islamabad",
+        phone: "03000466682",
+        whatsapp: "923000466682",
+        email: "info@budgetguesthouse.com",
+        rating: 4.2,
+        isActive: true,
+        facilities: [
+          "Free WiFi",
+          "24/7 Security",
+          "Basic Amenities",
+          "Clean Rooms",
+          "Affordable Rates"
+        ],
+        rooms: [
+          {
+            id: 3,
+            name: "Budget Room Near Faisal Mosque",
+            price: "Budget Friendly",
+            img: "room3.0.jpg",
+            slug: "budget-room-faisal-mosque",
+            description: "Experience Comfort and Affordability: Your Ideal Low Budget Guest House in Islamabad Near Faisal Mosque Are you planning a trip to Islamabad and searching for a comfortable yet budget-friendly accommodation...",
+            type: "Budget",
+            capacity: 2,
+            amenities: [
+              "Basic bedding",
+              "Shared bathroom",
+              "Basic TV",
+              "Work desk",
+              "Wardrobe"
+            ],
+            images: [
+              "room3.0.jpg"
+            ],
+            content: [
+              {
+                type: "heading",
+                level: 1,
+                text: "Low Budget Guest House in Islamabad: The Ultimate Opportunity for a Thrilling Stay",
+              },
+              {
+                type: "list",
+                items: [
+                  "Most affordable rates in Islamabad",
+                  "Clean and hygienic rooms",
+                  "Near Faisal Mosque",
+                  "Budget-friendly without compromising quality",
+                  "Ideal for backpackers and budget travelers",
+                ],
+              },
+              {
+                type: "paragraph",
+                text: "Experience Comfort and Affordability: Your Ideal Low Budget Guest House in Islamabad Near Faisal Mosque. Are you planning a trip to Islamabad and searching for a comfortable yet budget-friendly accommodation?",
+              },
+              {
+                type: "image",
+                src: "room3.0.jpg",
+                alt: "Budget Guest House Room",
+                caption: "Affordable comfort for budget-conscious travelers",
+              },
+              {
+                type: "heading",
+                level: 2,
+                text: "Why Choose Budget Accommodation?",
+              },
+              {
+                type: "paragraph",
+                text: "Budget doesn't mean compromising on comfort. Our low-cost guest house provides all essential amenities while keeping your expenses minimal, allowing you to spend more on exploring beautiful Islamabad.",
+              },
+            ]
+          }
+        ]
+      }
     ]
   },
   {
     id: 2,
-    name: "Discover the Best Guest House in F7 Jinnah Super - Unleash a Remarkable Stay Today!",
-    price: "Call: 03000466682",
-    img: "room2.0.jpg",
-    slug: "guest-house-islamabad-japanese-park",
-    location: "Islamabad",
-    description:
-      "Best Guest House in F7 Jinnah Super Introduction Dive into a world of luxury and comfort at the best guest house in F7 Jinnah Super. Experience a stay like never...",
-      content: [
+    name: "Lahore",
+    slug: "lahore",
+    description: "The cultural heart of Pakistan, known for its rich history and delicious food",
+    image: "lhr.jpg",
+    isActive: true,
+    guestHouses: [
       {
-        type: "image",
-        src: "room2.1.jpg",
-        alt: "F7 Jinnah Super Guest House",
-        caption: "Luxury accommodation in the heart of F7",
-      },
-      {
-        type: "heading",
-        level: 1,
-        text: "Discover the Best Guest House in F7 Jinnah Super - Unleash a Remarkable Stay Today!",
-      },
-      {
-        type: "paragraph",
-        text: "Dive into a world of luxury and comfort at the best guest house in F7 Jinnah Super. Experience a stay like never before with our premium accommodations and exceptional service.",
-      },
-      {
-        type: "list",
-        items: [
-          "Located in prestigious F7 sector",
-          "Walking distance to Jinnah Super Market",
-          "Luxury furnishings and decor",
-          "Premium bedding and linens",
-          "Complimentary breakfast",
-          "24/7 security and reception",
+        id: 4,
+        name: "Lahore Fort Guest House",
+        slug: "lahore-fort-guest-house",
+        description: "Experience the rich cultural heritage of Lahore from our centrally located guest house",
+        address: "Near Lahore Fort, Lahore",
+        phone: "03000466682",
+        whatsapp: "923000466682",
+        email: "info@lahoreguesthouse.com",
+        rating: 4.6,
+        isActive: true,
+        facilities: [
+          "Free WiFi",
+          "24/7 Security",
+          "Cultural Tours",
+          "Smart LED TV",
+          "Inverter AC",
+          "Parking",
+          "Traditional Breakfast"
         ],
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "Premium Amenities",
-      },
-      {
-        type: "paragraph",
-        text: "Our F7 location offers unparalleled access to Islamabad's finest dining, shopping, and entertainment venues. The guest house is designed with modern travelers in mind, offering both comfort and convenience.",
-      },
-    ],
+        rooms: [
+          {
+            id: 7,
+            name: "Heritage Room Lahore",
+            price: "Contact for Price",
+            img: "l-room1.0.jpg",
+            slug: "heritage-room-lahore",
+            description: "Immerse yourself in the rich cultural heritage of Lahore with our heritage room",
+            type: "Heritage",
+            capacity: 2,
+            amenities: [
+              "Traditional decor",
+              "Private bathroom",
+              "LED TV",
+              "Work desk",
+              "Wardrobe",
+              "Cultural guide service"
+            ],
+            images: [
+              "l-room1.0.jpg"
+            ],
+            content: []
+          },
+          {
+            id: 8,
+            name: "Heritage Room Lahore 2",
+            price: "Contact for Price",
+            img: "l-room2.0.jpg",
+            slug: "heritage-room-lahore",
+            description: "Immerse yourself in the rich cultural heritage of Lahore with our heritage room",
+            type: "Heritage",
+            capacity: 2,
+            amenities: [
+              "Traditional decor",
+              "Private bathroom",
+              "LED TV",
+              "Work desk",
+              "Wardrobe",
+              "Cultural guide service"
+            ],
+            images: [
+              "l-room2.0.jpg"
+            ],
+            content: []
+          }
+        ]
+      }
+    ]
   },
   {
     id: 3,
-    name: "Low Budget Guest House in Islamabad: The Ultimate Opportunity for a Thrilling Stay",
-    price: "Budget Friendly",
-    img: "room3.0.jpg",
-    slug: "guest-house-islamabad-japanese-park",
-    location: "Islamabad",
-    description:
-      "Experience Comfort and Affordability: Your Ideal Low Budget Guest House in Islamabad Near Faisal Mosque Are you planning a trip to Islamabad and searching for a comfortable yet budget-friendly accommodation...",
-        content: [
+    name: "Karachi",
+    slug: "karachi",
+    description: "The economic hub of Pakistan, a vibrant coastal city",
+    image: "kr.jpeg",
+    isActive: true,
+    guestHouses: [
       {
-        type: "heading",
-        level: 1,
-        text: "Low Budget Guest House in Islamabad: The Ultimate Opportunity for a Thrilling Stay",
-      },
-      {
-        type: "list",
-        items: [
-          "Most affordable rates in Islamabad",
-          "Clean and hygienic rooms",
-          "Near Faisal Mosque",
-          "Budget-friendly without compromising quality",
-          "Ideal for backpackers and budget travelers",
+        id: 5,
+        name: "Karachi Beach Guest House",
+        slug: "karachi-beach-guest-house",
+        description: "Enjoy the coastal breeze and modern amenities in the heart of Karachi",
+        address: "Near Clifton Beach, Karachi",
+        phone: "03000466682",
+        whatsapp: "923000466682",
+        email: "info@karachiguesthouse.com",
+        rating: 4.4,
+        isActive: true,
+        facilities: [
+          "Free WiFi",
+          "24/7 Security",
+          "Beach Access",
+          "Smart LED TV",
+          "Inverter AC",
+          "Parking",
+          "Seafood Restaurant"
         ],
-      },
-      {
-        type: "paragraph",
-        text: "Experience Comfort and Affordability: Your Ideal Low Budget Guest House in Islamabad Near Faisal Mosque. Are you planning a trip to Islamabad and searching for a comfortable yet budget-friendly accommodation?",
-      },
-      {
-        type: "image",
-        src: "room3.0.jpg",
-        alt: "Budget Guest House Room",
-        caption: "Affordable comfort for budget-conscious travelers",
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "Why Choose Budget Accommodation?",
-      },
-      {
-        type: "paragraph",
-        text: "Budget doesn't mean compromising on comfort. Our low-cost guest house provides all essential amenities while keeping your expenses minimal, allowing you to spend more on exploring beautiful Islamabad.",
-      },
-    ],
-  },
-  {
-    id: 4,
-    name: "Low Rate Guest Houses in F7 Islamabad: Your Affordable Oasis",
-    price: "Low Rates Available",
-      img: "room4.0.jpg",
-    description:
-      "Are you planning a trip to Islamabad and looking for accommodation that won't break the bank? Look no further than the low-rate guest houses in F7 Islamabad. Nestled in the...",
-    content: [
-      {
-        type: "heading",
-        level: 1,
-        text: "Low Budget Guest House in Islamabad: The Ultimate Opportunity for a Thrilling Stay",
-      },
-      {
-        type: "list",
-        items: [
-          "Most affordable rates in Islamabad",
-          "Clean and hygienic rooms",
-          "Near Faisal Mosque",
-          "Budget-friendly without compromising quality",
-          "Ideal for backpackers and budget travelers",
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "Experience Comfort and Affordability: Your Ideal Low Budget Guest House in Islamabad Near Faisal Mosque. Are you planning a trip to Islamabad and searching for a comfortable yet budget-friendly accommodation?",
-      },
-      {
-        type: "image",
-        src: "room4.0.jpg",
-        alt: "Budget Guest House Room",
-        caption: "Affordable comfort for budget-conscious travelers",
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "Why Choose Budget Accommodation?",
-      },
-      {
-        type: "paragraph",
-        text: "Budget doesn't mean compromising on comfort. Our low-cost guest house provides all essential amenities while keeping your expenses minimal, allowing you to spend more on exploring beautiful Islamabad.",
-      },
-    ],
-  },
-    {
-    id: 5,
-    name: "Low Rate Guest Houses in F7 Islamabad: Your Affordable Oasis",
-    price: "Low Rates Available",
-      img: "room4.0.jpg",
-    description:
-      "Are you planning a trip to Islamabad and looking for accommodation that won't break the bank? Look no further than the low-rate guest houses in F7 Islamabad. Nestled in the...",
-    content: [
-      {
-        type: "heading",
-        level: 1,
-        text: "Low Budget Guest House in Islamabad: The Ultimate Opportunity for a Thrilling Stay",
-      },
-      {
-        type: "list",
-        items: [
-          "Most affordable rates in Islamabad",
-          "Clean and hygienic rooms",
-          "Near Faisal Mosque",
-          "Budget-friendly without compromising quality",
-          "Ideal for backpackers and budget travelers",
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "Experience Comfort and Affordability: Your Ideal Low Budget Guest House in Islamabad Near Faisal Mosque. Are you planning a trip to Islamabad and searching for a comfortable yet budget-friendly accommodation?",
-      },
-      {
-        type: "image",
-        src: "room3.0.jpg",
-        alt: "Budget Guest House Room",
-        caption: "Affordable comfort for budget-conscious travelers",
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "Why Choose Budget Accommodation?",
-      },
-      {
-        type: "paragraph",
-        text: "Budget doesn't mean compromising on comfort. Our low-cost guest house provides all essential amenities while keeping your expenses minimal, allowing you to spend more on exploring beautiful Islamabad.",
-      },
-    ],
-    },
-    {
-    id: 6,
-    name: "Low Rate Guest Houses in F7 Islamabad: Your Affordable Oasis",
-    price: "Low Rates Available",
-      img: "room4.0.jpg",
-    description:
-      "Are you planning a trip to Islamabad and looking for accommodation that won't break the bank? Look no further than the low-rate guest houses in F7 Islamabad. Nestled in the...",
-    content: [
-      {
-        type: "heading",
-        level: 1,
-        text: "Low Budget Guest House in Islamabad: The Ultimate Opportunity for a Thrilling Stay",
-      },
-      {
-        type: "list",
-        items: [
-          "Most affordable rates in Islamabad",
-          "Clean and hygienic rooms",
-          "Near Faisal Mosque",
-          "Budget-friendly without compromising quality",
-          "Ideal for backpackers and budget travelers",
-        ],
-      },
-      {
-        type: "paragraph",
-        text: "Experience Comfort and Affordability: Your Ideal Low Budget Guest House in Islamabad Near Faisal Mosque. Are you planning a trip to Islamabad and searching for a comfortable yet budget-friendly accommodation?",
-      },
-      {
-        type: "image",
-        src: "room3.0.jpg",
-        alt: "Budget Guest House Room",
-        caption: "Affordable comfort for budget-conscious travelers",
-      },
-      {
-        type: "heading",
-        level: 2,
-        text: "Why Choose Budget Accommodation?",
-      },
-      {
-        type: "paragraph",
-        text: "Budget doesn't mean compromising on comfort. Our low-cost guest house provides all essential amenities while keeping your expenses minimal, allowing you to spend more on exploring beautiful Islamabad.",
-      },
-    ],
-  },
-
-
+        rooms: [
+          {
+            id: 8,
+            name: "Ocean View Room Karachi",
+            price: "Contact for Price",
+            img: "k-room1.0.jpg",
+            slug: "ocean-view-room-karachi",
+            description: "Wake up to stunning ocean views in our premium beachfront room",
+            type: "Ocean View",
+            capacity: 2,
+            amenities: [
+              "Ocean view balcony",
+              "Private bathroom",
+              "LED TV",
+              "Work desk",
+              "Wardrobe",
+              "Beach access"
+            ],
+            images: [
+              "k-room1.0.jpg"
+            ],
+            content: []
+          },
+          {
+            id: 10,
+            name: "Ocean View Room Karachi",
+            price: "Contact for Price",
+            img: "k-room2.0.jpg",
+            slug: "ocean-view-room-karachi",
+            description: "Wake up to stunning ocean views in our premium beachfront room",
+            type: "Ocean View",
+            capacity: 2,
+            amenities: [
+              "Ocean view balcony",
+              "Private bathroom",
+              "LED TV",
+              "Work desk",
+              "Wardrobe",
+              "Beach access"
+            ],
+            images: [
+              "k-room2.0.jpg"
+            ],
+            content: []
+          }
+        ]
+      }
+    ]
+  }
 ]
 
+// Helper functions for data access
+export const getActiveCities = () => cities.filter(city => city.isActive)
 
+export const getCityBySlug = (slug) => cities.find(city => city.slug === slug)
 
+export const getGuestHouseBySlug = (citySlug, guestHouseSlug) => {
+  const city = getCityBySlug(citySlug)
+  if (!city) return null
+  return city.guestHouses.find(gh => gh.slug === guestHouseSlug)
+}
+
+export const getRoomById = (roomId) => {
+  for (const city of cities) {
+    for (const guestHouse of city.guestHouses) {
+      const room = guestHouse.rooms.find(r => r.id === roomId)
+      if (room) return { room, guestHouse, city }
+    }
+  }
+  return null
+}
+
+export const getAllRooms = () => {
+  const allRooms = []
+  cities.forEach(city => {
+    city.guestHouses.forEach(guestHouse => {
+      guestHouse.rooms.forEach(room => {
+        allRooms.push({
+          ...room,
+          guestHouse: {
+            id: guestHouse.id,
+            name: guestHouse.name,
+            slug: guestHouse.slug
+          },
+          city: {
+            id: city.id,
+            name: city.name,
+            slug: city.slug
+          }
+        })
+      })
+    })
+  })
+  return allRooms
+}
+
+// Backward compatibility - keep the old rooms array for existing components
+export const rooms = getAllRooms()
 
 
 export const socialLinks = [

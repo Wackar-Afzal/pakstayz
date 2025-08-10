@@ -108,13 +108,18 @@ export default function RoomCard({ room, variant = "default", className = "" }) 
         </div>
         <div className="p-4">
           <h3 className="font-semibold mb-1 line-clamp-1">{room.name}</h3>
+          {room.city && room.guestHouse && (
+            <p className="text-gray-400 mb-1 text-xs">
+              {room.city} • {room.guestHouse}
+            </p>
+          )}
           <p className="text-gray-500 mb-2 text-sm">{room.price}</p>
           <Button
             onClick={() => handleWhatsAppBooking(room)}
             size="sm"
-            className="bg-blue-600 hover:bg-blue-700 text-white w-full"
+            className="!bg-blue-500 hover:!bg-blue-700 !text-white w-full"
           >
-            Book
+            Book Now
           </Button>
         </div>
       </CardContent>

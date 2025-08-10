@@ -14,7 +14,7 @@ export default async function ContactPage() {
   const contact = await getContactData()
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white max-w-6xl mx-auto">
 
       <main className="container mx-auto px-4 py-8">
         {/* Breadcrumb */}

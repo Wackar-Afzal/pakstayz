@@ -6,7 +6,15 @@ import { rooms } from "../../../assets/data";
 export default function HomePage() {
   return (
     <div className="min-h-screen  max-w-6xl mx-auto">
-            <h1 className="text-xl md:text-2xl font-bold text-gray-900 ml-4">Guest House In F-7 Islamabad</h1>
+            <div className="flex justify-between items-center ml-4 mb-6">
+              <h1 className="text-xl md:text-2xl font-bold text-gray-900">Guest House In F-7 Islamabad</h1>
+              <a 
+                href="/cities" 
+                className="text-orange-500 hover:text-orange-600 font-medium text-sm md:text-base"
+              >
+                Explore More Cities →
+              </a>
+            </div>
       <main className="container mx-auto px-4 py-8">
         {/* Mobile layout */}
         <div className="md:hidden">

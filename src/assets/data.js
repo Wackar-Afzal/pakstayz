@@ -10,19 +10,19 @@ export const cities = [
     guestHouses: [
       {
         id: 1,
-        name: "Guest House Near Japanese Park",
-        slug: "guest-house-japanese-park",
-        description: "A cozy guest house close to Japanese Park in the heart of Islamabad",
-        address: "Near Japanese Park, Islamabad",
-        phone: "03000466682",
-        whatsapp: "923000466682",
-        email: "info@japaneseparkguesthouse.com",
+        name: "Guest House G13 ISLAMABAD",
+        slug: "guest-house-jG13-ISLAMABAD",
+        description: "A cozy guest house G13 ISLAMABAD in the heart of Islamabad islamabad guesthouses guesthouses islamabad guest house near islamabad airport",
+        address: "G13, Islamabad",
+        phone: "03345583423",
+        whatsapp: "03345583423",
+        email: "attiq5583423@gmail.com",
         rating: 4.5,
         isActive: true,
         facilities: [
           "Free WiFi",
           "24/7 Security",
-          "Free Breakfast",
+          "paid Breakfast",
           "Smart LED TV",
           "Inverter AC",
           "Parking",
@@ -31,7 +31,7 @@ export const cities = [
         rooms: [
           {
             id: 1,
-            name: "Standard Room Near Japanese Park",
+            name: "Standard Room in G13 ISLAMABAD",
             price: "Contact for Price",
             img: "room1.0.jpg",
             slug: "standard-room-japanese-park",
@@ -57,7 +57,7 @@ export const cities = [
               {
                 type: "heading",
                 level: 1,
-                text: "Discover the Remarkable Guest House in Islamabad Near Japanese Park",
+                text: "Discover the Remarkable Guest House in  G13 Islamabad",
               },
               {
                 type: "paragraph",
@@ -77,7 +77,7 @@ export const cities = [
               {
                 type: "list",
                 items: [
-                  "Prime location near Japanese Park",
+                  "Prime location in G13 near islamabad chowk, only 1km from 26 no bus stand and golra mor 3km only from golra darbar",
                   "Clean and comfortable rooms",
                   "24/7 customer service",
                   "Affordable pricing",
@@ -121,9 +121,9 @@ export const cities = [
         slug: "f7-jinnah-super-guest-house",
         description: "Best Guest House in F7 Jinnah Super - Unleash a Remarkable Stay Today!",
         address: "F7 Jinnah Super, Islamabad",
-        phone: "03000466682",
-        whatsapp: "923000466682",
-        email: "info@f7guesthouse.com",
+        phone: "03345583423",
+        whatsapp: "03345583423",
+        email: "attiq5583423@gmail.com",
         rating: 4.8,
         isActive: true,
         facilities: [
@@ -140,7 +140,7 @@ export const cities = [
           {
             id: 2,
             name: "Deluxe Room F7 Jinnah Super",
-            price: "Call: 03000466682",
+            price: "Call: 03345583423",
             img: "room2.0.jpg",
             slug: "deluxe-room-f7-jinnah-super",
             description: "Best Guest House in F7 Jinnah Super Introduction Dive into a world of luxury and comfort at the best guest house in F7 Jinnah Super. Experience a stay like never...",
@@ -205,9 +205,9 @@ export const cities = [
         slug: "budget-guest-house-faisal-mosque",
         description: "Low Budget Guest House in Islamabad: The Ultimate Opportunity for a Thrilling Stay",
         address: "Near Faisal Mosque, Islamabad",
-        phone: "03000466682",
-        whatsapp: "923000466682",
-        email: "info@budgetguesthouse.com",
+        phone: "03345583423",
+        whatsapp: "03345583423",
+        email: "attiq5583423@gmail.com",
         rating: 4.2,
         isActive: true,
         facilities: [
@@ -292,9 +292,9 @@ export const cities = [
         slug: "lahore-fort-guest-house",
         description: "Experience the rich cultural heritage of Lahore from our centrally located guest house",
         address: "Near Lahore Fort, Lahore",
-        phone: "03000466682",
-        whatsapp: "923000466682",
-        email: "info@lahoreguesthouse.com",
+        phone: "03345583423",
+        whatsapp: "923345583423",
+        email: "attiq5583423@gmail.com",
         rating: 4.6,
         isActive: true,
         facilities: [
@@ -369,9 +369,9 @@ export const cities = [
         slug: "karachi-beach-guest-house",
         description: "Enjoy the coastal breeze and modern amenities in the heart of Karachi",
         address: "Near Clifton Beach, Karachi",
-        phone: "03000466682",
-        whatsapp: "923000466682",
-        email: "info@karachiguesthouse.com",
+        phone: "03345583423",
+        whatsapp: "923345583423",
+        email: "attiq5583423.com",
         rating: 4.4,
         isActive: true,
         facilities: [
@@ -498,14 +498,14 @@ export const footerData = {
     "mapLink": "https://www.google.com/maps?q=Islamabad,+Pakistan&hl=en"
   },
   "phone": {
-    "number": "+92 300 8933591",
-    "tel": "923008933591"
+    "number": "+92 3345583423",
+    "tel": "923345583423"
   },
   "email": "attiq5583423@gmail.com",
   "facebook": {
     "link": "https://www.facebook.com/PakStayz?mibextid=wwXIfr&rdid=hmFnxELNghNfd5u5&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F18buKKfX9s%2F%3Fmibextid%3DwwXIfr#"
   },
-  "whatsappLink": "https://wa.me/923008933591",
+  "whatsappLink": "https://wa.me/923345583423",
   "footerNote": "Available 24/7",
   "copyright": "© 2025 PakStayz"
 }
@@ -709,7 +709,7 @@ export const contactData = {
     },
     {
       type: "p",
-      items: ["923000466682", "923335767387"],
+      items: ["923345583423", "923345583423"],
     },
   ],
 }
